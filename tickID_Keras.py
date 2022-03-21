@@ -12,10 +12,11 @@ from keras.callbacks import EarlyStopping, ModelCheckpoint, ReduceLROnPlateau
 from keras.preprocessing import image
 from keras.models import load_model
 
-''' Here is the folder design: We will have a base directory that has all 
-tick images. Then we will randomly copy images to train and test directory,
-using shutil.copy(). Next, we will do all the training and evaluation
-process on those two directories, and never touch the main/base directory.'''
+''' Here is the folder and subfolder structure that I think we should use: 
+We will have a base directory that has all tick images. Then we will randomly copy 
+images to train and test directory, using shutil.copy(). Next, we will do all 
+the training and evaluation process on those two directories, 
+and never touch the main/base directory.'''
 
 base_dir = 'Path to Base Directory'
 train_dir = 'Path to Train Directory'
@@ -73,7 +74,7 @@ x = base_model(x, training=False)
 x = keras.layers.GlobalAveragePooling2D()(x)
 #Add a dropout layer to avoid overfitting
 x = keras.layers.Dropout(0.2)(x)
-predictions = keras.layers.Dense(3, activation='softmax')(x)
+predictions = keras.layers.Dense(num_classes, activation='softmax')(x)
 model = keras.Model(inputs=inputs, outputs=predictions)
 model.compile(optimizer='adam', 
               loss=tf.keras.losses.CategoricalCrossentropy(),
