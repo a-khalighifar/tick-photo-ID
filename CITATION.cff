@@ -1,0 +1,42 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "Potential of dorsal-view images in hierarchical automated tick identification"
+type: software
+authors:
+  - family-names: "Khalighifar"
+    given-names: "Ali"
+    affiliation: "Biodiversity Institute, University of Kansas"
+    # orcid: "https://orcid.org/0000-0000-0000-0000"  # TODO: Add ORCID
+  - family-names: "Grant"
+    given-names: "Amber"
+    affiliation: "College of Veterinary Medicine, Oklahoma State University"
+  - family-names: "Sundstrom"
+    given-names: "Kellee"
+    affiliation: "College of Veterinary Medicine, Oklahoma State University"
+  - family-names: "Duncan"
+    given-names: "Kathryn"
+    affiliation: "College of Veterinary Medicine, Oklahoma State University"
+  - family-names: "Peterson"
+    given-names: "A. Townsend"
+    affiliation: "Biodiversity Institute, University of Kansas"
+repository-code: "https://github.com/a-khalighifar/tick-photo-ID"
+license: MIT
+# doi: "10.xxxx/xxxxx"          # TODO: Add DOI once available
+# date-released: "YYYY-MM-DD"   # TODO: Add release date
+# preferred-citation:            # TODO: Add once paper is published
+#   type: article
+#   authors:
+#     - family-names: "Khalighifar"
+#       given-names: "Ali"
+#     - family-names: "Grant"
+#       given-names: "Amber"
+#     - family-names: "Sundstrom"
+#       given-names: "Kellee"
+#     - family-names: "Duncan"
+#       given-names: "Kathryn"
+#     - family-names: "Peterson"
+#       given-names: "A. Townsend"
+#   title: "Potential of dorsal-view images in hierarchical automated tick identification"
+#   journal: "Journal TBD"
+#   doi: "10.xxxx/xxxxx"
+#   year: YYYY

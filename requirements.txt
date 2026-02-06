@@ -1,0 +1,5 @@
+# Python 3.8 - 3.10 recommended (compatible with TensorFlow 2.8)
+tensorflow==2.8.0
+numpy==1.22.3
+matplotlib==3.5.1
+keras-preprocessing==1.1.2
