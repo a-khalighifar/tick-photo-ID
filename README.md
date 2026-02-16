@@ -7,7 +7,7 @@ A deep-learning pipeline for hierarchical identification of North American ixodi
 Rapid, accurate identification of ticks is essential for understanding the changing geographic distributions of these important disease vectors. Traditional dichotomous keys can be complex, require considerable training, and are open to human error. This repository provides the CNN-based classification system described in:
 
 > **Potential of dorsal-view images in hierarchical automated tick identification**
-> Ali Khalighifar, Amber Grant, Kellee Sundstrom, Kathryn Duncan, A. Townsend Peterson
+> Eric Ng'eno, Amber Grant, Kellee Sundstrom, Kathryn Duncan, Susan E. Little, A. Townsend Peterson, Ali Khalighifar
 
 The system classifies dorsal-view images of seven common North American hard tick species across life stages (larva, nymph, adult), species, and sex using a hierarchical framework:
 
@@ -139,7 +139,7 @@ To evaluate the full test set, iterate over all images in the test directory and
 If you use this code in your research, please cite:
 
 > **Potential of dorsal-view images in hierarchical automated tick identification**
-> Ali Khalighifar, Amber Grant, Kellee Sundstrom, Kathryn Duncan, A. Townsend Peterson
+> Eric Ng'eno, Amber Grant, Kellee Sundstrom, Kathryn Duncan, Susan E. Little, A. Townsend Peterson, Ali Khalighifar
 > *[Journal TBD]*
 > DOI: [TBD]
 
